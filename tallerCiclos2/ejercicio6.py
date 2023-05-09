@@ -1,6 +1,4 @@
-abecedario = "zywvtsrqponmlkjihgfedcba"
-
+abecedario = "zyxwvutsrqponmlkjihgfedcba"
 for i in range(len(abecedario)):
-    letra = abecedario[i]
-    print(abecedario)
-    abecedario -= letra
+    print(abecedario[i : len(abecedario)])
+    
